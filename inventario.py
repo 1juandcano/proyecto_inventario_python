@@ -1,75 +1,87 @@
 # ---------------------------------------------
+<<<<<<< HEAD
 # Programa de inventario
 # ---------------------------------------------
 # Este programa registra el producto que el usuario pida
 # for the product name, price, and quantity.
 # It validates the numeric inputs and calculates
 # the total cost of the product in the inventory.
+=======
+# Programa simple de inventario
+# ---------------------------------------------
+# Este programa registra un producto preguntando al usuario
+# por el nombre del producto, precio y cantidad.
+# Valida las entradas numéricas y calcula
+# el costo total del producto en el inventario.
+>>>>>>> 0ee1643ee2b46f945b43343686e8f9317e98d9a7
 # ---------------------------------------------
 
-# Ask the user for the product name
-product_name = input("Enter the product name: ")
+# Pedir al usuario el nombre del producto
+nombre_producto = input("Ingrese el nombre del producto: ")
 
 # ---------------------------------------------
-# Validate the price input
-# The program keeps asking until a valid number is entered
+# Validar la entrada del precio
+# El programa seguirá preguntando hasta que se ingrese
+# un número válido
 # ---------------------------------------------
 while True:
-    price_input = input("Enter the unit price: ")
+    entrada_precio = input("Ingrese el precio unitario: ")
 
     try:
-        price = float(price_input)
+        precio = float(entrada_precio)
 
-        if price < 0:
-            print("Invalid value. Price cannot be negative.")
+        if precio < 0:
+            print("Valor inválido. El precio no puede ser negativo.")
         else:
             break
 
     except ValueError:
-        print("Invalid input. Please enter a valid number.")
+        print("Entrada inválida. Por favor ingrese un número válido.")
 
 
 # ---------------------------------------------
-# Validate the quantity input
-# The program keeps asking until a valid integer is entered
+# Validar la entrada de la cantidad
+# El programa seguirá preguntando hasta que se ingrese
+# un número entero válido
 # ---------------------------------------------
 while True:
-    quantity_input = input("Enter the quantity: ")
+    entrada_cantidad = input("Ingrese la cantidad: ")
 
     try:
-        quantity = int(quantity_input)
+        cantidad = int(entrada_cantidad)
 
-        if quantity < 0:
-            print("Invalid value. Quantity cannot be negative.")
+        if cantidad < 0:
+            print("Valor inválido. La cantidad no puede ser negativa.")
         else:
             break
 
     except ValueError:
-        print("Invalid input. Please enter a whole number.")
+        print("Entrada inválida. Por favor ingrese un número entero.")
 
 
 # ---------------------------------------------
-# Calculate the total cost
+# Calcular el costo total
 # ---------------------------------------------
-total_cost = price * quantity
+costo_total = precio * cantidad
 
 
 # ---------------------------------------------
-# Display the results in the console
+# Mostrar los resultados en la consola
 # ---------------------------------------------
-print("\n----- PRODUCT SUMMARY -----")
-print(f"Product: {product_name}")
-print(f"Unit Price: {price}")
-print(f"Quantity: {quantity}")
-print(f"Total Cost: {total_cost}")
+print("\n----- RESUMEN DEL PRODUCTO -----")
+print(f"Producto: {nombre_producto}")
+print(f"Precio unitario: {precio}")
+print(f"Cantidad: {cantidad}")
+print(f"Costo total: {costo_total}")
 
 
 # ----------------------------------------------------------
-# Program description:
-# This program simulates a very simple inventory system.
-# It asks the user for the product name, unit price, and
-# quantity available. The program validates that price and
-# quantity are numeric values and not negative. After the
-# validation, it calculates the total cost by multiplying
-# price and quantity, and then prints a summary in the console.
+# Descripción del programa:
+# Este programa simula un sistema de inventario muy simple.
+# Solicita al usuario el nombre del producto, el precio
+# unitario y la cantidad disponible. El programa valida
+# que el precio y la cantidad sean valores numéricos
+# y que no sean negativos. Después de la validación,
+# calcula el costo total multiplicando el precio por la
+# cantidad y finalmente muestra un resumen en la consola.
 # ----------------------------------------------------------
