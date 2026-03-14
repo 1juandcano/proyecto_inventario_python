@@ -147,7 +147,7 @@ Contiene la documentación del proyecto.
 
 ---
 
-# ▶️ Cómo Ejecutar el Programa
+# ▶Cómo Ejecutar el Programa
 
 Una vez dentro de la carpeta del proyecto, ejecuta el programa con:
 
@@ -157,7 +157,7 @@ python3 inventory.py
 
 ---
 
-# 💻 Ejemplo de Ejecución del Programa
+#  Ejemplo de Ejecución del Programa
 
 Cuando ejecutes el programa verás algo como esto:
 

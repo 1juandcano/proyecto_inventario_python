@@ -1,19 +1,16 @@
 # ---------------------------------------------
-<<<<<<< HEAD
 # Programa de inventario
 # ---------------------------------------------
 # Este programa registra el producto que el usuario pida
 # for the product name, price, and quantity.
 # It validates the numeric inputs and calculates
 # the total cost of the product in the inventory.
-=======
 # Programa simple de inventario
 # ---------------------------------------------
 # Este programa registra un producto preguntando al usuario
 # por el nombre del producto, precio y cantidad.
 # Valida las entradas numéricas y calcula
 # el costo total del producto en el inventario.
->>>>>>> 0ee1643ee2b46f945b43343686e8f9317e98d9a7
 # ---------------------------------------------
 
 # Pedir al usuario el nombre del producto
