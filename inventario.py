@@ -1,7 +1,7 @@
 # ---------------------------------------------
-# Simple Inventory Program
+# Programa de inventario
 # ---------------------------------------------
-# This program registers a product by asking the user
+# Este programa registra el producto que el usuario pida
 # for the product name, price, and quantity.
 # It validates the numeric inputs and calculates
 # the total cost of the product in the inventory.
